@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>CAPTCHA Prediction Result</title>
+    <style>
+      * {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Prediction Result</h1>
+      <p>Uploaded Image:</p>
+      <p>Predicted CAPTCHA: {{ prediction }}</p>
+      <a href="{{ url_for('index') }}">Upload another image</a>
+    </div>
+  </body>
+</html>
